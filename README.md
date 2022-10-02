@@ -10,18 +10,20 @@ When you first load this page nothing will pop up. When you hit the red generate
 
 ### Intial Prompt:
 
-![](Screenshots/Screenshot%20(10).png)
+![](Assets/Screenshots/Screenshot%20(10).png)
 
 ### Alert if the user inputed a number outside the range:
 
-![](Screenshots/Screenshot%20(11).png)
+![](Assets/Screenshots/Screenshot%20(11).png)
 
 ### Asks the user if they would like numbers, symbols, upper/lower case characters in their password:
 
-![](Screenshots/Screenshot%20(12).png)
-![](Screenshots/Screenshot%20(13).png)
-![](Screenshots/Screenshot%20(14).png)
-![](Screenshots/Screenshot%20(15).png)
+![](Assets/Screenshots/Screenshot%20(12).png)
+![](Assets/Screenshots/Screenshot%20(13).png)
+![](Assets/Screenshots/Screenshot%20(14).png)
+![](Assets/Screenshots/Screenshot%20(14).png)
+![](Assets/Screenshots/Screenshot%20(15).png)
+
 
 #### Note: 
 In the screenshots it says "undefined" because I am running it in a live server and cycled through the prompts many times.
@@ -31,7 +33,7 @@ In the screenshots it says "undefined" because I am running it in a live server 
 ![](Screenshots/Screenshot%20(16).png)
 
 ## Links:
-GitHub Repository: https://github.com/A-Frankhouser/Password-Generator
+GitHub Repository: https://github.com/A-Frankhouser/Password-Generator           
 Deployed Site: 
 
 ## References:
