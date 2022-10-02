@@ -69,6 +69,10 @@ function generatePassword() {
   if (includeUppercase === true) {
     characterList.push(uppercaseList);
   }
+// If the user confirms nothing for their password, then it automatically adds the numbers list and the lowercase list.
+  if (characterList.length === 0) {
+    characterList.push(lowercaseList, numberList);
+  }
 
  var generatedPassword = "";
 
