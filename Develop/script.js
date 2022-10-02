@@ -33,6 +33,28 @@ function generatePassword() {
     uppercaseList[i] = lowercaseList[i].toUpperCase();
   }
 
+  // This variable contains all the values that that the user wants in their password.
+  var characterList = [];
+
+// When the user confirms if they want numbers, symbols, uppercase, or lowercase then it gets put into this catorgory for the browerser to choose from.
+  if (includeNumbers === true) {
+    characterList.push(numberList);
+  }
+
+  if (includeSymbols === true) {
+    characterList.push(symbolList);
+  }
+
+  if (includeLowercase === true) {
+    characterList.push(lowercaseList);
+  }
+  
+  if (includeUppercase === true) {
+    characterList.push(uppercaseList);
+  }
+
+
+
 }
 
 
