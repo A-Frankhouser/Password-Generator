@@ -82,7 +82,8 @@ function generatePassword() {
   var randomPassword = randomItem(randomList);
   generatedPassword += randomPassword;
  }
-console.log(generatedPassword);
+
+ return generatedPassword
 
 }
 
