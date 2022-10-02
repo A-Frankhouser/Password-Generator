@@ -1,5 +1,22 @@
 // Assignment code here
 
+// funtion to get a random integer
+function randomInt(min, max) {
+  if (!max) {
+    max = min;
+    min = 0;
+  }
+  var random = Math.random()
+  return Math.floor(min*(1 - random) + random*max);
+}
+
+// funtion to get a random character from the list
+function randomItem(list) {
+  return list[randomInt(list.length)];
+}
+
+
+
 function generatePassword() {
  
 // Displays a promt asking the user to choose a number between 9-128.
@@ -33,7 +50,7 @@ function generatePassword() {
     uppercaseList[i] = lowercaseList[i].toUpperCase();
   }
 
-  // This variable contains all the values that that the user wants in their password.
+// This variable contains all the values that that the user wants in their password.
   var characterList = [];
 
 // When the user confirms if they want numbers, symbols, uppercase, or lowercase then it gets put into this catorgory for the browerser to choose from.
@@ -53,7 +70,15 @@ function generatePassword() {
     characterList.push(uppercaseList);
   }
 
+ var generatedPassword = "";
 
+// Generates a random password depending on the user inputs.
+ for (var i = 0; i < passwordLength; i++) {
+  var randomList = randomItem(characterList);
+  var randomPassword = randomItem(randomList);
+  generatedPassword += randomPassword;
+ }
+console.log(generatedPassword);
 
 }
 
