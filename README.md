@@ -34,7 +34,7 @@ In the screenshots it says "undefined" because I am running it in a live server 
 
 ## Links:
 GitHub Repository: https://github.com/A-Frankhouser/Password-Generator           
-Deployed Site: 
+Deployed Site: https://a-frankhouser.github.io/Password-Generator/ 
 
 ## References:
 This youtube channel was a big help in helping me through some of the mathmatical functions and other places I got stuck. This person goes in depth on how and why certain things work and explained everything really well. He really helped me understand JavaScript more!
